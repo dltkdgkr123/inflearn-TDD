@@ -3,8 +3,13 @@ package com.sh.product_order_service.product;
 import com.sh.product_order_service.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
 
+@SpringBootTest
 public class ProductServiceTest {
+
+    @Autowired
     private ProductService productService;
     private ProductPort productPort;
     private ProductRepository productRepository;

@@ -25,17 +25,17 @@
 **기존 순서**
 
 1. 관련 패키지/모듈 구현
-2. 테스트 코드에서 해당 패키지를 import하여 작성
+2. 테스트 코드에서 해당 코드를 import하여 작성
 3. 동작 성공 확인
 
 **영상 순서**
 
 1. 테스트 코드에 모든 기능을 한 번에 구현
 2. 동작 성공 확인
-3. `Refactor` 기능을 사용해 모든 inner class를 외부 클래스로 추출
+3. `Refactor` 기능을 사용해 모든 inner class를 extern class로 변경
     - `Ctrl + Alt + M`: 특정 코드 블록을 메서드로 추출하는 리팩토링
     - `F6`: inner class를 외부 클래스로 추출하는 리팩토링
-    - 
+    
 
 ---
 
@@ -46,4 +46,4 @@
 
 ---
 
-![image1.png](images/image1.png)
+![image1.png](/images/image1.png)
