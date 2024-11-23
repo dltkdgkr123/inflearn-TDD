@@ -46,4 +46,18 @@
 
 ---
 
+### ⌨️ **가독성을 위한 선택지**
+
+- Test 단위에 한해서 `snake case` 사용 : inner class는 미적용
+- 변수 키워드 `var` 사용 : java 10부터 도입된 타입 추론(Type Inference) 기반
+
+---
+
+### ⌨️ **[Java] record 키워드**
+- `새로운 class type` : java 14부터 도입, java 16부터 정식 기능 포함
+- `불변 객체`를 쉽게 만들 수 있음
+- 기존 DTO의 `보일러 플레이트 코드` 문제 해결 : getter, setter, equals, hashCode, toString 등
+- Lombok이 이를 대신 해결했으나, java 진영에서도 근본적인 해결을 위함
+- see also : https://blog.naver.com/seek316/223341255150
+
 ![image1.png](/images/image1.png)

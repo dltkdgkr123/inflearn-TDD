@@ -1,6 +1,5 @@
 package com.sh.product_order_service.product;
 
-import com.sh.product_order_service.*;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -21,7 +20,7 @@ class ProductServiceTest {
 //    }
 
     @Test
-    void AddProduct() {
+    void add_product() {
         // Arrange
         final AddProductRequest request = generateAddProductRequest();
 
