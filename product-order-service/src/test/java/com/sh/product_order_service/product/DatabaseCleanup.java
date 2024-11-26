@@ -8,6 +8,7 @@ import jakarta.persistence.Table;
 import jakarta.persistence.metamodel.EntityType;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.InitializingBean;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 import java.util.Set;
@@ -28,6 +29,8 @@ import java.util.stream.Collectors;
  * 예시 의존성 (Gradle) :
  * implementation 'com.google.guava:guava:31.1-jre'
  */
+
+@Component
 public class DatabaseCleanup implements InitializingBean {
     @PersistenceContext
     private EntityManager entityManager;
