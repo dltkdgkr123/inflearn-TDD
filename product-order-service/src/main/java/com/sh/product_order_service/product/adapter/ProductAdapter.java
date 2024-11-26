@@ -1,5 +1,7 @@
-package com.sh.product_order_service.product;
+package com.sh.product_order_service.product.adapter;
 
+import com.sh.product_order_service.product.application.port.ProductPort;
+import com.sh.product_order_service.product.domain.Product;
 import org.springframework.stereotype.Component;
 
 @Component

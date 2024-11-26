@@ -1,6 +1,8 @@
 package com.sh.product_order_service.product;
 
 import com.sh.product_order_service.ApiTest;
+import com.sh.product_order_service.product.application.service.AddProductRequest;
+import com.sh.product_order_service.product.domain.DiscountPolicy;
 import io.restassured.RestAssured;
 import io.restassured.response.ExtractableResponse;
 import io.restassured.response.Response;
